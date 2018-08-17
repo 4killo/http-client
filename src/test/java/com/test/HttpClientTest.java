@@ -17,7 +17,7 @@ public class HttpClientTest {
     public void testSendStringPodt() {
 
         String response =
-                HttpClient.post("https://cgrid-dev.lbidts.com/int-secura/customerprefs/v1/customer/preferences/stores/save")
+                HttpClient.post("https://xxxxxxxxxxxxxxx")
                         .body(getParam1())
                         .header("accept", "application/json")
                         .header("Content-Type", "application/json")
@@ -40,7 +40,7 @@ public class HttpClientTest {
         });
 
         String response =
-                HttpClient.post("https://cgrid-dev.lbidts.com/int-secura/customerprefs/v1/customer/preferences/stores/save")
+                HttpClient.post("https://xxxxxxxxxxxxxxx")
                         .body(getFavoriteStoreRequest())
                         .header("accept", "application/json")
                         .header("Content-Type", "application/json")
@@ -74,7 +74,7 @@ public class HttpClientTest {
         });
 
         HttpResponse response =
-                HttpClient.post("https://cgrid-dev.lbidts.com/int-secura/customerprefs/v1/customer/preferences/stores")
+                HttpClient.post("https://xxxxxxxxxxxxxxx")
                         .body(getParam2())
                         .header("accept", "application/json")
                         .header("Content-Type", "application/json")
@@ -89,7 +89,7 @@ public class HttpClientTest {
     @Test
     public void testAsJsonAsync() throws InterruptedException {
         final CountDownLatch latch = new CountDownLatch(1);
-        HttpClient.post("https://cgrid-dev.lbidts.com/int-secura/customerprefs/v1/customer/preferences/stores")
+        HttpClient.post("https://xxxxxxxxxxxxxxx")
                 .body(getParam2())
                 .header("accept", "application/json")
                 .header("Content-Type", "application/json")
