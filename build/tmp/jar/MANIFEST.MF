@@ -1,0 +1,7 @@
+Manifest-Version: 1.0
+Implementation-Title: http-client
+Implementation-Version: 1.0-SNAPSHOT
+Built-By: masres
+Built-Date: Mon Jan 23 14:34:04 EST 2017
+Built-JDK: 1.8.0_101
+

@@ -1,0 +1,3 @@
+class Stores {
+    storeIds: [99430]
+}

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.test.HttpClientTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2017-01-23T19:18:34" hostname="C02ML23GFD58" time="0.902">
+  <properties/>
+  <testcase name="testSendStringPodt" classname="com.test.HttpClientTest" time="0.625"/>
+  <testcase name="testSendAndReadObject" classname="com.test.HttpClientTest" time="0.147"/>
+  <testcase name="testSendObject" classname="com.test.HttpClientTest" time="0.022"/>
+  <testcase name="testAsJsonAsync" classname="com.test.HttpClientTest" time="0.107"/>
+  <system-out><![CDATA[class Stores {
+    storeIds: [99430]
+}]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
