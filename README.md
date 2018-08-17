@@ -1,7 +1,7 @@
 # http-client
 
 
-The http client can be used for sync and aysnc call. For async  Java 8 CompletableFuture  and wait a call back.
+The http client can be used for sync and aysnc call. For async  it uses Java 8 CompletableFuture  and wait as  call back.
 
 ** Usage: Sync Example 1**
 
